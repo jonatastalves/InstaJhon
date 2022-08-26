@@ -1,0 +1,33 @@
+@import '../../../styles.scss';
+
+nav {
+    width: 100%;
+    height: $size-extrem;
+    background-color: map-get($project-color, 'main');
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px
+
+}
+
+.brand , .links{
+
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    
+    img {
+        height: 80px;
+        width: auto;
+    }
+
+    h1{
+        font-family: $font-logo;
+        font-size: $size-logo;
+    }
+
+    li{
+        list-style: none;
+        padding: 0 20px;        
+    }
+}

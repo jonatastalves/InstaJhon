@@ -1,0 +1,11 @@
+@import '../../../styles.scss';
+
+footer{
+    width: 100%;
+    height: $size-extrem;
+    background-color: map-get($project-color, 'main');
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center; 
+}
