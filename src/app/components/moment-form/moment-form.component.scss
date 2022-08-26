@@ -1,0 +1,52 @@
+@import '../../../styles.scss';
+
+form{
+    width: 450px;
+    margin: 0 auto;
+    display: flex; 
+    flex-direction: column;
+    color: black;    
+    
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;    
+
+    label{
+        font-weight: bold;
+        font-size: .9em;
+        margin-bottom: $size-margin-bottom;
+        color: map-get($project-color, 'title' );        
+    }   
+    
+    input, textarea{
+        padding: .6em;
+        font-size: 0.8em ;
+        color: map-get($project-color, 'title' );
+    }       
+}
+
+
+
+input[type="submit"]{
+
+    width: 35%;
+    border-radius: 6px;
+    padding: .5em 1em;
+    font-size: 1.1em;
+    font-weight: bold;
+    background-color: map-get($project-color, 'button' );
+    border: none;
+    cursor: pointer;
+    transition: .4s;   
+
+}
+
+input[type="submit"]:hover{
+
+    background-color: map-get($project-color, 'main' );
+
+}
+

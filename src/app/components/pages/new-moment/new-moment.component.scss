@@ -1,0 +1,8 @@
+@import '../../../../styles.scss';
+
+h2{
+    text-align: center;
+    color: map-get($project-color, 'title' );
+    margin-bottom: $size-margin-bottom;
+    font-size: $size-title;
+}
