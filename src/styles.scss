@@ -36,3 +36,10 @@ span{
     color:  map-get($project-color, 'button' );
 }
 
+.validation-error p{
+    color: map-get($project-color, 'button');
+    margin-top: 0.4em;
+    border-left: 3px solid map-get($project-color, 'button');
+    padding-left: 0.2em;
+}
+
