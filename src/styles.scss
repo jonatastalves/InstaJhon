@@ -9,7 +9,8 @@ $project-color:(
     'title':#101652,
     'text':#f1c694,
     'text-light':#f9e5cf,
-    'button': #dc6378
+    'button': #dc6378,
+    'white': #fff
 );
 
 $font-logo: 'Dancing Script';
@@ -24,7 +25,7 @@ $size-margin-bottom: 1em;
     margin: 0;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     box-sizing: border-box;
-    color: map-get($project-color, 'text-light');
+    
 };
 
 a{

@@ -36,15 +36,17 @@ input[type="submit"]{
     font-size: 1.1em;
     font-weight: bold;
     background-color: map-get($project-color, 'button' );
+    color: map-get($project-color, 'text-light');
     border: none;
     cursor: pointer;
-    transition: .4s;   
+    transition: .3s;   
 
 }
 
 input[type="submit"]:hover{
 
     background-color: map-get($project-color, 'main' );
+    
 
 }
 

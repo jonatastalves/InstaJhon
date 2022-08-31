@@ -6,7 +6,8 @@ nav {
     background-color: map-get($project-color, 'main');
     display: flex;
     justify-content: space-between;
-    padding: 0 20px
+    padding: 0 20px;
+    
 
 }
 
@@ -24,10 +25,17 @@ nav {
     h1{
         font-family: $font-logo;
         font-size: $size-logo;
+        color: map-get($project-color, 'text-light');
     }
 
     li{
         list-style: none;
-        padding: 0 20px;        
+        padding: 0 20px;           
+        a{
+            color: map-get($project-color, 'text-light');            
+            &:hover{
+                color: map-get($project-color, 'button');
+            }
+        }
     }
 }

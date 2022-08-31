@@ -1,0 +1,23 @@
+@import '../../../../styles.scss';
+
+.about figure{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 4%;
+
+    img{
+        width: 50%;
+        height: auto;
+    }
+
+    p{
+        width: 40%;
+        height: auto;
+
+        a{
+            color: map-get($project-color, 'button');
+        }
+    }
+
+}
