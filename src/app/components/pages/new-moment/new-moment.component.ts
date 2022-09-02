@@ -24,22 +24,23 @@ export class NewMomentComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  async createHandler(moment: Moment){
-    const formData = new FormData()
-    
-    formData.append('title', moment.title)
-    formData.append('description', moment.description)
+  async createHandler(moment: Moment) {
+    const formData = new FormData();
 
-    if(moment.image){
+    formData.append('title', moment.title);
+    formData.append('description', moment.description);
+
+    if (moment.image) {
       formData.append('image', moment.image);
     }
+
     await this.momentService.createMoment(formData).subscribe();
 
-    this.messagesService.add('Adicionado com sucesso!')
+    this.messagesService.add(`Momento adicionado com sucesso!`);
 
-    this.router.navigate(['/'])
-
-
+    this.router.navigate(['/']).then(()=>{
+      window.location.reload();
+    });
   }
 
   

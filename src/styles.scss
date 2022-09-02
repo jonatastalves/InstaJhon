@@ -44,3 +44,36 @@ span{
     padding-left: 0.2em;
 }
 
+.edit-btn, .remove-btn{
+    border: 1px solid #efefef;
+    padding: .4em 1em;
+    font-size: 1em;
+    margin: 0 .5em;
+    cursor: pointer;
+    background-color: map-get($project-color, 'white');
+    transition: 0.3s;
+    color: map-get($project-color, 'white');
+}
+
+button fa-icon, a fa-icon{
+    margin-right: 0.2em;
+}
+
+.remove-btn, .remove-btn path{
+    border-color: map-get($project-color, 'button');
+    color: map-get($project-color, 'button');
+}
+.remove-btn:hover, .remove-btn:hover path{
+    color: map-get($project-color, 'white');
+    background-color: map-get($project-color, 'button');
+}
+
+.edit-btn, .edit-btn path{
+    border-color: map-get($project-color, 'main');
+    color: map-get($project-color, 'main');
+}
+.edit-btn:hover, .edit-btn:hover path{
+    color: map-get($project-color, 'white');
+    background-color: map-get($project-color, 'main');
+}
+
