@@ -2,7 +2,6 @@
     <h1>{{moment.title}}</h1>
     <img src="{{baseApiUrl}}uploads/{{moment.image}}" alt="{{moment.title}}">
     <div class="about-moment">
-        <p class="date">Em: {{moment.created_at}}</p>
         <h3>Sobre essa foto:</h3>
         <p>{{ moment.description }}</p>    
     </div>
@@ -13,9 +12,5 @@
         <button class="remove-btn" (click)='removeHandler(moment.id!)'>
             <fa-icon [icon]='faTimes'></fa-icon> Excluir
         </button>
-    </div>
-    <!-- Comentários -->
-    <div class="comments">
-        <h3>Comentários (0)</h3>
-    </div>
+    </div>   
 </div>
