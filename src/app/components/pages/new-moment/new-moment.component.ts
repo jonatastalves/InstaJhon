@@ -38,9 +38,10 @@ export class NewMomentComponent implements OnInit {
 
     this.messagesService.add(`Momento adicionado com sucesso!`);
 
-    this.router.navigate(['/']).then(()=>{
+    await this.router.navigate(['/']).then(()=>{
       window.location.reload();
     });
+
   }
 
   

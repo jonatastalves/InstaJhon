@@ -35,6 +35,8 @@ export class MomentComponent implements OnInit {
       .getMoment(id)
       .subscribe((item) => (this.moment = item.data))
 
+      
+
   }
 
   async removeHandler(id: number){
