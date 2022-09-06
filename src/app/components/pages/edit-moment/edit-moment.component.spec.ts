@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { RodrigoComponent } from './rodrigo.component';
+import { EditMomentComponent } from './edit-moment.component';
 
-describe('RodrigoComponent', () => {
-  let component: RodrigoComponent;
-  let fixture: ComponentFixture<RodrigoComponent>;
+describe('EditMomentComponent', () => {
+  let component: EditMomentComponent;
+  let fixture: ComponentFixture<EditMomentComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ RodrigoComponent ]
+      declarations: [ EditMomentComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(RodrigoComponent);
+    fixture = TestBed.createComponent(EditMomentComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
