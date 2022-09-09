@@ -1,27 +1,55 @@
-# Instajhon
+<h1 align="center">INSTAJHON</h1 align="center">
+ <br />
+  <p align="center">SUMÁRIO<p align="center">
+  <a href="#sobre"> Sobre </a> |
+  <a href="#Requisitos">Requisitos</a> |
+  <a href="#usamos"> Usamos </a> |
+  <a href="#rodando-o-projeto"> Rodando o projeto </a> 
+       <br />
+    <br />
+  </p>
+</p>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.1.
+# Sobre:
 
-## Development server
+Projeto criado para prática dos conhecimentos adquiridos<br>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Proposta: Implementar uma aplicação frontend, que faça um CRUD completo para postagem de foto, aonde é possível postar, pesquisar, editar e excluir a foto desejada<br>
 
-## Code scaffolding
+# Usamos:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+✔ Angular
+✔ SCSS
+✔ TypeScript
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+# Links uteis
 
-## Running unit tests
+✔[Git](https://git-scm.com) <br>
+✔[VSCode](https://code.visualstudio.com/) <br>
+✔[Node.js](https://nodejs.org/en/) <br>
+✔[Angular](https://angular.io/) <br>
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+# Rodando o projeto
 
-## Running end-to-end tests
+Para fazer uso localmente, utilizando o terminal de sua preferência use o seguinte comando:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+`git clone https://github.com/jonatastalves/InstaJhon.git`
 
-## Further help
+Logo após use o comando:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+`cd InstaJhon`
+
+Após trocar o repositório abra pasta de destino utilizando o VSCode,<br>
+abra o terminal do versionador de código com o comando CTRL+J e instale o NPM para rodar o projeto localmente<br>
+com todas as dependências necessárias através de:
+
+`npm install`
+
+Para iniciar o projeto utilize:
+
+`ng serve`
+
+SALIENTANDO QUE... para usar o projeto corretamente é necessário baixar e executar localmente a API do mesmo, que se encontra junto as instruções no link abaixo:
+
+https://github.com/jonatastalves/api-Jhonstagram-adonisjs
