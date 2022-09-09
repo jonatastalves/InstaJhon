@@ -2,7 +2,6 @@
  <br />
   <p align="center">SUMÁRIO<p align="center">
   <a href="#sobre"> Sobre </a> |
-  <a href="#Requisitos">Requisitos</a> |
   <a href="#usamos"> Usamos </a> |
   <a href="#rodando-o-projeto"> Rodando o projeto </a> 
        <br />
